@@ -3,7 +3,7 @@ Robot Framework script to enter radio station contest for beer fest
 
 Need to install:
 *  Robot Framework:  Using PIP, "pip install robotframework" http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installing-with-pip
-*  Selenium2Library: C:\>pip install robotframework-selenium2library
+*  Selenium2Library: Using PIP, "pip install robotframework-selenium2library"
 *  Chromedriver:     https://sites.google.com/a/chromium.org/chromedriver/
 
 Need to verify your environment (path) is configured correctly, i.e. you can access pip, chromedriver, robot.
