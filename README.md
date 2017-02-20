@@ -8,4 +8,6 @@ Need to install:
 
 Need to verify your environment (path) is configured correctly, i.e. you can access pip, chromedriver, robot.
 
-To run, C:\>robot beer.robot
+Modify the beer_contest.robot file with your info, i.e. Name, DOB, email, etc..
+
+To run, C:\>robot beer_contest.robot
