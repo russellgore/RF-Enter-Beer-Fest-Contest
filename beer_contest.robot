@@ -8,8 +8,8 @@ ${Delay}       	.1s
 ${FIRST NAME}  	John
 ${LAST NAME}   	Doe
 ${ZIP CODE}     99706
-${PHONE}	 	858-651-5050
-${EMAIL}		jdoe@westcoastwaffles.com
+${PHONE}	858-651-5050
+${EMAIL}	jdoe@westcoastwaffles.com
 ${BIRTH MONTH}	11
 ${BIRTH DAY}	23
 ${BIRTH YEAR}	1980
@@ -28,9 +28,9 @@ ${BIRTH YEAR}	1980
 	
 *** Keywords ***
 Load Website And Enter Contest
-	Open Browser 		 	${URL}   ${Browser}
+	Open Browser 		${URL}   ${Browser}
 	Set Selenium Speed   	${DELAY}
-	Sleep					3s
+	Sleep			3s
 	
 Log Page Title
     Log Title
@@ -58,5 +58,5 @@ Enter Zipcode
 	Input Text 		text-input-3|408	${ZIP CODE}
 	
 Agree To Terms And Submit
-	Select Checkbox     terms|907
-	Click Button    Submit
+	Select Checkbox     	terms|907
+	Click Button    	Submit
