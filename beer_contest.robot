@@ -24,7 +24,7 @@ ${BIRTH YEAR}	1980
 	Enter Phone Number
 	Enter Zipcode
 	Agree To Terms And Submit
-	#[Teardown]    Close Browser 
+	[Teardown]    Close Browser 
 	
 *** Keywords ***
 Load Website And Enter Contest
